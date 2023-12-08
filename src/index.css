@@ -40,9 +40,16 @@ body {
   height: 70px;
 }
 
-.card-container {
+.cards-array-container {
   margin-top: 100px;
+}
+
+.card-container {
+  margin-top: 20px;
+  width: 525px;
   display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(231, 230, 230);
 }
 
 .world-image {
@@ -52,13 +59,51 @@ body {
 }
 
 .travel-image {
-  width: 125px;
-  height: 168px;
+  width: 140px;
+  height: 185px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.city-title {
+.location-container {
   margin-left: 20px;
+}
+
+.city-container {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.map-icon {
+  width: 9px;
+  height: 12px;
+}
+
+.city-title {
+  padding-left: 5px;
   letter-spacing: 3px;
+}
+
+.google-maps-link {
+  color: gray;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.travel-date {
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.location-description {
+  font-size: 12px;
 }
