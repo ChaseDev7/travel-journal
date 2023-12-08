@@ -23,4 +23,42 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: rgb(78, 161, 255);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.card-container {
+  margin-top: 100px;
+  display: flex;
+}
+
+.world-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.travel-image {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.city-title {
+  margin-left: 20px;
+  letter-spacing: 3px;
 }
